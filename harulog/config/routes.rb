@@ -1,4 +1,12 @@
 Harulog::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/profile"
+
+  get "pages/setting"
+
+  get "pages/logout"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
